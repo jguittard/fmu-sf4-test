@@ -1,0 +1,53 @@
+version: '3.3'
+
+services:
+  nginx:
+    container_name: fmu-test-nginx
+    build: ./.docker/nginx
+    env_file:
+    - .env
+    expose:
+    - 80
+    ports:
+    - 8080:80
+    links:
+    - php-fpm
+    networks:
+    - foodmeup_test
+    volumes:
+    - type: bind
+      source: ./
+      target: /var/www
+
+  php-fpm:
+    container_name: fmu-test-php
+    build: ./.docker/php-fpm
+    env_file:
+    - .env
+    expose:
+    - 9000
+    environment:
+      PHP_IDE_CONFIG: "serverName=test.foodmeup.local"
+    networks:
+    - foodmeup_test
+    volumes:
+    - type: bind
+      source: ./
+      target: /var/www
+
+  mysql:
+    container_name: fmu-test-db
+    image: mysql
+    volumes:
+    - .docker/data/db:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: fmu_test_sf4
+      MYSQL_USER: fmu_user
+      MYSQL_PASSWORD: iloverandompasswordsbutthisonewilldo
+
+networks:
+  foodmeup_test:
+
+volumes:
+  mysql_data:
