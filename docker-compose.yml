@@ -5,7 +5,7 @@ services:
     container_name: fmu-test-nginx
     build: ./.docker/nginx
     env_file:
-    - .env
+    - .docker-env
     expose:
     - 80
     ports:
@@ -23,7 +23,7 @@ services:
     container_name: fmu-test-php
     build: ./.docker/php-fpm
     env_file:
-    - .env
+    - .docker-env
     expose:
     - 9000
     environment:
