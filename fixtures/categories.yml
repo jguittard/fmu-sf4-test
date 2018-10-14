@@ -1,0 +1,9 @@
+App\Entity\Category:
+  category_1:
+    name: "Frais"
+  category_2:
+    name: "Produits Laitiers"
+  category_3:
+    name: "Beurres"
+  category_4:
+    name: "Beurre sans sel"
