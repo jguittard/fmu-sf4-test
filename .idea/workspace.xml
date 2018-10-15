@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb6a50e8-1446-4bd9-9c25-d62a83e51840" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.docker/php-fpm/config/php-fpm.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/php-fpm/config/php-fpm.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fmu-sf4-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fmu-sf4-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test1/Converter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test1/Unit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test1/test1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixtures/categories.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/categories.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Listener/TreePathListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Listener/TreePathListener.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/categories/update.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/categories/update.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +64,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="2" />
+          <entry key="Dockerfile" value="3" />
           <entry key="category" value="32" />
+          <entry key="console" value="1" />
           <entry key="css" value="1" />
           <entry key="dist" value="1" />
           <entry key="docker-env" value="2" />
@@ -81,9 +74,9 @@
           <entry key="ini" value="6" />
           <entry key="json" value="4" />
           <entry key="lock" value="2" />
-          <entry key="md" value="2" />
+          <entry key="md" value="3" />
           <entry key="migration_versions" value="1" />
-          <entry key="php" value="104" />
+          <entry key="php" value="108" />
           <entry key="sh" value="1" />
           <entry key="sql" value="1" />
           <entry key="svg" value="1" />
@@ -98,11 +91,11 @@
           <entry key="Bash" value="1" />
           <entry key="CSS" value="1" />
           <entry key="Database Element" value="33" />
-          <entry key="Dockerfile" value="2" />
+          <entry key="Dockerfile" value="4" />
           <entry key="Ini" value="6" />
           <entry key="JSON" value="5" />
-          <entry key="Markdown" value="2" />
-          <entry key="PHP" value="104" />
+          <entry key="Markdown" value="3" />
+          <entry key="PHP" value="108" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SVG" value="1" />
           <entry key="Scratch" value="1" />
@@ -118,10 +111,10 @@
           <entry key="env" value="16" />
           <entry key="ini" value="43" />
           <entry key="json" value="67" />
-          <entry key="md" value="262" />
-          <entry key="php" value="3813" />
+          <entry key="md" value="495" />
+          <entry key="php" value="3838" />
           <entry key="twig" value="679" />
-          <entry key="txt" value="507" />
+          <entry key="txt" value="526" />
           <entry key="yaml" value="302" />
           <entry key="yml" value="446" />
         </counts>
@@ -133,9 +126,9 @@
           <entry key="Dockerfile" value="6" />
           <entry key="Ini" value="43" />
           <entry key="JSON" value="67" />
-          <entry key="Markdown" value="262" />
-          <entry key="PHP" value="3813" />
-          <entry key="PLAIN_TEXT" value="507" />
+          <entry key="Markdown" value="495" />
+          <entry key="PHP" value="3838" />
+          <entry key="PLAIN_TEXT" value="526" />
           <entry key="Scratch" value="166" />
           <entry key="Twig" value="679" />
           <entry key="YAML" value="748" />
@@ -150,11 +143,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/test1/test1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.docker/php-fpm/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -219,8 +233,12 @@
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/fixtures/categories.yml" />
         <option value="$PROJECT_DIR$/src/Listener/TreePathListener.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/bin/test1.php" />
+        <option value="$PROJECT_DIR$/bin/test1/Converter.php" />
+        <option value="$PROJECT_DIR$/bin/test1/Unit.php" />
+        <option value="$PROJECT_DIR$/bin/test1/test1.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -338,45 +356,30 @@
             <path>
               <item name="fmu-sf4-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="fmu-sf4-test" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name=".docker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fmu-sf4-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="fmu-sf4-test" type="462c0819:PsiDirectoryNode" />
-              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
+              <item name=".docker" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fmu-sf4-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="fmu-sf4-test" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name=".docker" type="462c0819:PsiDirectoryNode" />
+              <item name="php-fpm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fmu-sf4-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="fmu-sf4-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fmu-sf4-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="fmu-sf4-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fmu-sf4-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fmu-sf4-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fmu-sf4-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fmu-sf4-test" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fmu-sf4-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fmu-sf4-test" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="categories" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="test1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -396,7 +399,11 @@
     <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bin/test1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bin/test1" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -480,11 +487,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539576674650</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="List + update pages">
+      <created>1539584360594</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1539584360594</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37177000" />
+    <option name="totallyTimeSpent" value="38180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
@@ -531,44 +545,10 @@
     <MESSAGE value="Nested model implementation, repository implementation" />
     <MESSAGE value="TreeListener with post insert and update event handlers" />
     <MESSAGE value="List page with ordered list of categories. Placeholders for add and edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="List page with ordered list of categories. Placeholders for add and edit" />
+    <MESSAGE value="List + update pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="List + update pages" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Model/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/framework-bundle/Controller/ControllerTrait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="339" column="7" lean-forward="true" selection-start-line="339" selection-start-column="7" selection-end-line="339" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/framework-bundle/Controller/AbstractController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20181014193902.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="193" selection-start-line="17" selection-start-column="193" selection-end-line="17" selection-end-column="193" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/ObjectRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -798,16 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-          <folding>
-            <element signature="e#59#83#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -863,16 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="405">
-            <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Listener/TreePathListener.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -892,8 +852,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        <state relative-caret-position="885">
+          <caret line="59" column="28" lean-forward="true" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="47" column="43" lean-forward="true" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+          <folding>
+            <element signature="e#59#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/console">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/test1/Unit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/test1/Converter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="54" lean-forward="true" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.docker/php-fpm/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/test1/test1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
