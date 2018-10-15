@@ -16,7 +16,7 @@ $ docker run --rm -v $(pwd)/bin/test1:/app -w /app php:7.2-cli php test1.php
 
 ## 2. Nested model implementation in Symfony 4 application
 ### First use
-Run this command line from the base dir of the project:
+- On a Mac, run this command line from the base dir of the project:
 ```
 $ ./fmu-test-init.sh
 ```
@@ -24,7 +24,21 @@ $ ./fmu-test-init.sh
 Upon launch confirmation, this script will:
 1. Build Docker containers
 2. Install Composer dependencies
-3. Initialize the application _(config files, database setup, data fixtures)_
+3. Initialize the application _(database setup, data fixtures)_
+
+- On Windows (10), do the following:
+1. Edit your local hosts file in `C:\Windows\System32\Drivers\etc` by adding the following line:
+```
+127.0.0.1       test.foodmeup.local
+```
+2. From the base dir of the project, run the following command:
+```
+$ docker-compose up -d
+```
+3. Finally, install Composer dependencies from inside the PHP container:
+```
+docker exec -ti fmu-test-php composer install
+```
 
 ### Use
 

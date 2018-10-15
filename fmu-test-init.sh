@@ -58,7 +58,7 @@ while true; do
         echo "";
 
         echo -e "${BLUE}Initializing the application, please wait...${NC}";
-        docker exec -ti moneytrack-demo-php composer install
+        docker exec -ti fmu-test-php composer install
         echo -e "${GREEN}Application initialized!${NC}";
         echo "";
         echo -e "${GREEN}[ALL DONE]${NC}";
