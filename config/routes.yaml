@@ -1,3 +1,9 @@
 landing:
     path: /
-    controller: App\Controller\LandingController::categories
+    controller: App\Controller\RootController::root
+categories_list:
+    path: /categories
+    controller: App\Controller\CategoryController::fetch
+category_update:
+    path: /categories/{id}
+    controller: App\Controller\CategoryController::update

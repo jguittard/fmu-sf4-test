@@ -21,3 +21,7 @@ Upon launch confirmation, this script will:
 ## Use
 
 - [http://test.foodmeup.local:8080](http://test.foodmeup.local:8080) to access the application
+
+This endpoint redirects to the `categories` page, on which an _hierarchical ordered category list_ is available.
+
+Each category entry is bound to its update page. Updating the category name refreshes the category `path`.

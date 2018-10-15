@@ -37,20 +37,18 @@ class TreePathListener extends TreeListener
     {
         $objectManager = $adapter->getObjectManager();
         $object = $adapter->getObject();
-
         $metadata = $objectManager->getClassMetadata(get_class($object));
         $repository = $objectManager->getRepository($metadata->getName());
 
         if ($repository instanceof NestedTreeRepository) {
             $nodes = $repository->getChildren($object, false, null, 'ASC', true);
-            $property = $metadata->getReflectionProperty('path');
+            $pathProperty = $metadata->getReflectionProperty('path');
 
             foreach ($nodes as $node) {
-                $parents = $repository->getPath($object);
-                $property->setValue($node, implode(' \\ ', $parents));
+                $value = $repository->getPath($object);
+                $pathProperty->setValue($node, implode(' \\ ', $value));
                 $objectManager->persist($node);
             }
-
             $objectManager->flush();
         }
     }
