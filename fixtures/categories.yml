@@ -5,8 +5,23 @@ App\Entity\Category:
     name: "Produits Laitiers"
     parent: "@category_1"
   category_3:
-    name: "Beurres"
+    name: "Yahourts"
     parent: "@category_2"
   category_4:
+    name: "Beurres"
+    parent: "@category_2"
+  category_5:
     name: "Beurre sans sel"
-    parent: "@category_3"
+    parent: "@category_4"
+  category_6:
+    name: "Margarine"
+    parent: "@category_4"
+  category_7:
+    name: "Charcuterie"
+    parent: "@category_1"
+  category_8:
+    name: "Jambon"
+    parent: "@category_7"
+  category_9:
+    name: "Saucisses"
+    parent: "@category_7"
