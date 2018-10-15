@@ -35,7 +35,7 @@ class Category
      * @ORM\Column(type="string", length=255)
      * @var string|null
      */
-    private $path;
+    private $path = '';
 
     /**
      * @Gedmo\TreeLeft
@@ -99,7 +99,6 @@ class Category
     public function setName(string $name): self
     {
         $this->name = $name;
-        $this->path = $name;
 
         return $this;
     }
@@ -108,13 +107,6 @@ class Category
     {
         return $this->path;
     }
-
-    /*public function setPath(string $path): self
-    {
-        $this->path = $path;
-
-        return $this;
-    }*/
 
     public function getLeft(): ?int
     {

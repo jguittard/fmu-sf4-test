@@ -10,3 +10,5 @@ stof_doctrine_extensions:
             tree:           true
             uploadable:     false
             sluggable:      false
+    class:
+        tree: App\Listener\TreePathListener
