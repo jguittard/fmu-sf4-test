@@ -58,8 +58,7 @@ while true; do
         echo "";
 
         echo -e "${BLUE}Initializing the application, please wait...${NC}";
-        # cp build.properties.dist build.properties
-        # docker exec -ti moneytrack-demo-php /var/www/vendor/bin/phing init
+        docker exec -ti moneytrack-demo-php composer install
         echo -e "${GREEN}Application initialized!${NC}";
         echo "";
         echo -e "${GREEN}[ALL DONE]${NC}";
