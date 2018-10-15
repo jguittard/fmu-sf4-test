@@ -3,7 +3,10 @@ App\Entity\Category:
     name: "Frais"
   category_2:
     name: "Produits Laitiers"
+    parent: "@category_1"
   category_3:
     name: "Beurres"
+    parent: "@category_2"
   category_4:
     name: "Beurre sans sel"
+    parent: "@category_3"
